@@ -1,0 +1,20 @@
+To INSTALL
+
+./compile.sh
+./install.sh
+
+
+
+backup.sh		Creates a tarfile of this directorycontents
+blinkarkivsystem.tar	This is the tar file
+blinkcontrolcgi.sh	cgi shellscript.  browse using  <host>/cgi-bin/blink
+blinksystem.c		c file for blinking
+cleanup.sh		shellscript that removes the system from the computer
+cmd.txt			communication is through this temporary file
+compile.sh		compiles and links
+filecmd.c		module to fetch "order" from cgi
+filecmd.h		header for above
+initblink.sh		daemon script..  autostart on boot
+install.sh		install script
+README			this file
+TODO			always things to do

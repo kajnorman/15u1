@@ -1,0 +1,12 @@
+make the cmd.txt stay in /tmp.. (readable and writeable by anyone) DONE
+script to cleanup.sh  the installation remove it from the computer.DONE
+	test by rebooting DONE
+	shall also remove webpages
+make a script to install.sh DONE
+	test by rebooting DONE
+	also install webpages DONE
+make a script to backup DONE
+	make the backupscript use a remote server
+make an instruction. howto compile,install,remove ...partly done
+use the makefile-system
+make a PHP (not cgi) version

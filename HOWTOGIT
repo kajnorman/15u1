@@ -1,0 +1,42 @@
+GETTING the files
+
+Using the following command will generate a folder code-examples-raspi
+which will contain
+	code examples for raspi
+	and a repository..  .git wich holds a version controll system for the code exemples
+  556  git clone https://normankaj@code.google.com/p/code-examples-raspi/ 
+
+
+PUTTING up a new version
+
+  563  cd code-examples-raspi/
+Creating subdiretories
+  566  mkdir C-code
+  567  cd C-code/
+  568  mkdir reading_fileandconsole
+  569  cd reading_fileandconsole/
+Copying a number of files into this directory system
+  573  cp ../../../input/* .
+
+  580  git status
+Will show a lot of changed but not addded files
+
+  581  git add .
+Will add the files (They are now staged)
+
+  582  git status
+
+  584  git remote -v
+will show that will show the name of the remote git-server
+
+  585  git  commit 
+will actually commit all changes on the staged (added) files into the local git repository
+
+  586  git log
+will show a log
+
+  587  git push origin master
+will update the remote server 
+
+for password 
+https://code.google.com/hosting/settings
